@@ -1,0 +1,58 @@
+site_name: Jack Hardy
+site_url: https://jackjohnhardy.github.io/
+nav:
+  - 'Homepage': index.md
+  - 'About Me': empty.md
+  - 'Projects':
+    - 'This Website':
+      - 'Overview': website.md
+    - 'TerminusRP DayZ Server':
+      - 'Overview': empty.md
+      - 'Website': empty.md
+      - 'Mod': empty.md
+      - 'Branding': empty.md
+      - 'Terminus Server': empty.md
+    - 'CatepillaDevelopment':
+      - 'Overview': empty.md
+    - 'Bird Game':
+      - 'Overview': empty.md
+  - 'CV': empty.md
+plugins:
+  - glightbox
+  - search
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.expand
+    - header.autohide
+    - content.tabs.link
+  logo: img/JH_Logo.png
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/lightbulb 
+        name: Switch to dark mode
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+extra:
+  generator: false
+copyright: Copyright &copy; 2022 Jack Hardy
