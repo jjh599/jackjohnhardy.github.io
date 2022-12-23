@@ -1,5 +1,7 @@
 site_name: Jack Hardy
 site_url: https://jackjohnhardy.github.io/
+repo_url: https://github.com/JackJohnHardy/jackjohnhardy.github.io
+repo_name: jackjohnhardy.github.io
 nav:
   - 'Homepage': index.md
   - 'About Me': empty.md
@@ -29,6 +31,8 @@ theme:
     - header.autohide
     - content.tabs.link
   logo: img/JH_Logo.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for dark mode
     - scheme: slate
