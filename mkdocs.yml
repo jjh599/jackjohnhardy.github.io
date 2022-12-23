@@ -2,6 +2,7 @@ site_name: Jack Hardy
 site_url: https://jackjohnhardy.github.io/
 repo_url: https://github.com/JackJohnHardy/jackjohnhardy.github.io
 repo_name: jackjohnhardy.github.io
+edit_uri: "edit/main/docs"
 nav:
   - 'Homepage': index.md
   - 'About Me': empty.md
@@ -59,4 +60,14 @@ markdown_extensions:
   - md_in_html
 extra:
   generator: false
+  social:
+    - icon: material/email
+      link: mailto:jackjohnhardy@outlook.com
+      name: 'Email Me'
+    - icon: material/web
+      link: https://jackjohnhardy.github.io
+      name: 'My Website'
+    - icon: material/github
+      link: https://github.com/JackJohnHardy
+      name: 'Jack Hardy on GitHub'
 copyright: Copyright &copy; 2022 Jack Hardy
