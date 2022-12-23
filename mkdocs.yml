@@ -18,7 +18,7 @@ nav:
       - 'Overview': empty.md
     - 'Bird Game':
       - 'Overview': empty.md
-  - 'CV': empty.md
+  - 'CV': CV.md
 plugins:
   - glightbox
   - search
