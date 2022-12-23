@@ -32,6 +32,7 @@ theme:
     - header.autohide
     - content.tabs.link
   logo: img/JH_Logo.png
+  favicon: img/JH_Logo.ico
   icon:
     repo: fontawesome/brands/github
   palette:
