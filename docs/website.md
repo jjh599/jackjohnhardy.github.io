@@ -66,7 +66,7 @@ nav:
 
 ![JH_Logo](img/JH_Logo.png){align=left width=50}
 After that all I had left to do was create a simple logo in paint.net for the header to replace the old one.  
-![mkdocs_serve](img/logo_creation.png)
+![logo_creation](img/logo_creation.png)
 
 ---
 

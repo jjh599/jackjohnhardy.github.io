@@ -7,17 +7,11 @@ nav:
   - 'Homepage': index.md
   - 'About Me': empty.md
   - 'Projects':
-    - 'My Website': website.md
-    - 'TerminusRP DayZ Server':
-      - 'Overview': empty.md
-      - 'Website': empty.md
-      - 'Mod': empty.md
-      - 'Branding': empty.md
-      - 'Terminus Server': empty.md
-    - 'CatepillaDevelopment':
-      - 'Overview': empty.md
-    - 'Bird Game':
-      - 'Overview': empty.md
+    - 'Overview': projects_overview.md
+    - 'This Website': website.md
+    - 'PiazzaPanic': piazza_panic.md
+    - 'Bird Game': bird_game.md
+    - 'TerminusRP': empty.md
   - 'CV': CV.md
 plugins:
   - glightbox
@@ -61,6 +55,8 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
 extra:
   generator: false
   social:
